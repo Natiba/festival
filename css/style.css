@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&family=Lexend+Peta&family=Libre+Caslon+Text&family=Noto+Serif+Display:ital,wght@0,600;1,900&family=Poppins:wght@200&display=swap");
+
+/* font-family: 'Poppins', sans-serif;  for Ju nav*/
+
+/* for wk1 y botones: Arial */
+
+/* font-family: 'Libre Caslon Text', serif; for June */
+
+/* font-family: 'Lexend Peta', sans-serif; burguer */
+
+/* font-family: 'Noto Serif Display', serif;  some titles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(240, 244, 231, 0.639);
+  background-image: url(../assets/img/gradient2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 5%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* All flex - Mobile */
+
+.title, .flyer, section, .weeks, .eat, footer, .politics,
+.social > ul, .politics, .r-btn,.select, .img-circle, .lyte, .color-container, .color-logo, .color-header, .color-nav, .color-nav .ham-border, .learn-container, .learn-section, .learn-arts, .learn-links, .a-link-collection, .price  {
+    display: flex;
+    
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* All flex Align/Justify - Mobile */
+
+.title, .flyer, .weeks, .select, .img-circle, .lyte, .color-logo, .color-nav, .color-nav .ham-border {
+  align-items: center;
+  justify-content: center;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* All Poppins font */
+
+font {
+  font-family: Poppins, Arial;
+}
+
+/* header */
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */

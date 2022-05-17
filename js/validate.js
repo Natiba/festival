@@ -48,7 +48,7 @@
   
     var validateCheckbox = function(e){
       if (myForm.gridCheck.checked == false){
-          alert("Accept 'Checm me out'");
+          alert("Accept 'Check me out'");
           e.preventDefault();
       }
   };

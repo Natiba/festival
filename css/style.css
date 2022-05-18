@@ -1274,12 +1274,10 @@ a .footer-logo-collection {
     align-items: center;
     justify-content: space-between;
     margin: -40px auto 150px;
-    border: 1px solir red
   }
 
   .logo-desktop {
     width: 20%;
-    border: 1px solir red
   }
 
   .logo-desktop p {
@@ -1289,7 +1287,6 @@ a .footer-logo-collection {
   .c-desk-navigation-navList {
     align-items: center;
     justify-content: space-between;
-    border: 1px solir red
   }
 
   .c-navigation__navItem {
@@ -1382,7 +1379,7 @@ a .footer-logo-collection {
 }
 
 .footer-logo-img {
-  width: 60%;
+  width: 100%;
   padding-bottom: 10px;
   color: #000000;
 }

@@ -1366,6 +1366,11 @@ a .footer-logo-collection {
   margin-top: 50px;
 }
 
+.footer-logo-collection {
+  margin-left: 23%;
+  height: 30px;
+}
+
 .footer-logo {
   flex: 2 1 25%;
   margin-top: 0;

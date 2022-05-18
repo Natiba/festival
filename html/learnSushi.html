@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/sushi.css" />
+    <title>Sushi</title>
+  </head>
+  <body style="background: rgb(245, 247, 250)">
+    <div class="sushi-container">
+      <header>
+        <!-- Nav Mobile Navigation-->
+        <div id="nav-container"></div>
+
+        <!-- Desktop Navigation-->
+        <div class="c-navigation__wrapper hidden" id="navigation-wrapper"></div>
+      </header>
+      <main>
+        <section class="about-sushi">
+          <h3 class="sushi-about">ABOUT US</h3>
+          <hr class="sushi-hr" />
+          <p class="sushi-text">
+            Modern sushi house featuring creative rolls, Japanese fare &
+            cocktails in a stylish, brick interior. Ageha Sushi in Hell’s
+            Kitchen serves fresh sushi and Japanese food, sakis, beers, and
+            soups in a comfortable atmosphere. Favorite menu items include the
+            jalapeno appetizer, Angry tuna roll, spicy roll combo, and the Pad
+            Thai. When you’re in need of fresh and inspired cuisine, look no
+            further.
+          </p>
+        </section>
+
+        <!-- Carousel -->
+        <div class="sushi-carousel-container">
+          <div class="items">
+            <div class="sushi-title">
+              <h2>Sushi By Scratch</h2>
+
+              <p class="sushi-text">
+                Explore our brand new 10 course Omakase and Sake pairing plus
+                access to the Sushi Speakeasy behind an unmarked door hidden in
+                plain sight within Indi Central Market.
+              </p>
+            </div>
+            <div class="item active">
+              <img src="../assets/sushi/sushi1.jpeg" />
+            </div>
+            <div class="item next">
+              <img src="../assets/sushi/sushi2.jpeg" />
+            </div>
+            <div class="item">
+              <img src="../assets/sushi/sushi3.jpeg" />
+            </div>
+            <div class="item">
+              <img src="../assets/sushi/sushi4.jpeg" />
+            </div>
+            <div class="button-container">
+              <div class="button"><i class="fa fas fa-angle-left"></i></div>
+              <div class="button"><i class="fa fas fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <!-- Jump to Button -->
+        <button class="jumpToButton sticky">
+          <img
+            class="footer-logo-img"
+            alt="logo Coachella"
+            src="https://media-prd.coachella.com/content/coachella-2022/chevron.svg"
+          />
+        </button>
+      </main>
+      <!-- Footer -->
+      <footer
+        class="media768-footer carousel-footer"
+        id="footer-plain"
+      ></footer>
+    </div>
+
+    <img
+      class="carousel-base-img"
+      src="/assets/img/footer-illustration.png"
+      alt="footerImg"
+    />
+    <script src="/js/script.js"></script>
+    <script src="/js/sushi.js"></script>
+    <script src="/js/footer.js"></script>
+  </body>
+</html>

@@ -1226,6 +1226,10 @@ a .footer-logo-collection {
     align-items: flex-start;
   }
 
+  .learn-container {
+    padding-top: 50px;
+  }
+
   .title {
     display: none;
   }

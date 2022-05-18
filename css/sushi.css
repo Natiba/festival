@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sushi-container {
+  margin: 5%
+}
+
+.sushi-about {
+  text-align: center;
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.sushi-hr {
+  width: 40%;
+  margin: 0 auto;
+  height: 3px;
+  background:rgba(214, 96, 69);
+  border: none;
+}
+
+.sushi-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  height: 80%;
+  text-align: justify;
+}
+
+
+section>p {
+width: 105%
+}
+
+
+/* Carousel sushi */
+
+.sushi-carousel-container {
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+  }
+
+  .sushi-title {
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sushi-title p {
+    padding-top: 10px;
+    color: #636262
+}
+  
+  .items {
+    height: 530px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    width:90%;
+    background: #f4d6a3;
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 44px;
+  }
+  
+  .items .item {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0
+  }
+  
+  .item img {
+    width: 100%;
+    height: 110%;
+    margin-top: -10px;
+    object-fit: cover;
+   
+  }
+  
+  .item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(243, 109, 109, 0.75);
+  }
+  
+  .item.prev {
+    z-index: 2;
+    opacity: 0;
+    transform: translate(-125%, -50%);
+  }
+  
+  .item.next {
+    z-index: 2;
+    opacity: 0;
+    transform: translate(25%, -50%);
+  }
+  
+  .items .button-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+  }
+  
+  .button-container .button {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .button-container .button:hover {
+    opacity: 1;
+  }
+  
+  .button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(70, 69, 69);
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .button-container .button:nth-child(1) {
+    float: left;
+  }
+  
+  .button-container .button:nth-child(2) {
+    float: right;
+  }
+
+
+/* Jump to Button */
+
+.jumpToButton, .sticky {
+    transform: translateY(0);
+  }
+  
+  .jumpToButton {
+    display: block;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 38px;
+    height: 38px;
+    background-size: 100%;
+    background-image: url(https://aegwebprod.blob.core.windows.net/templates/template10/images/circle-gradient-not-transparent%402x.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 10;
+    transition: transform .4s ease,-webkit-transform .4s ease;
+    color: #3a3a3a;
+    cursor: url(https://media-prd.coachella.com/content/coachella-2022/cursor-hover.png),pointer;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .jumpToButton>img {
+    width: 18px;
+    height: 18px;
+    transform: rotate(-90deg);
+  }
+  
+  /* xxxxxxxxxxxxxxxxxxxxxxx */
+  
+  .carousel-footer {
+     position: absolute;
+     width: 90%;
+     top: 125%;
+     background: linear-gradient(
+        to bottom,
+        #f4d6a3,
+        rgba(195, 169, 243, 0.523),
+        rgba(247, 155, 239, 0.497),
+        rgba(208, 241, 231, 0.543),
+        rgba(250, 247, 235, 0.639),
+        rgb(245,247,250))
+  }
+
+  .social {
+      padding-top: 20px
+  }
+
+  .carousel-base-img {
+      position: absolute;
+      top:180%;
+      width: 90%;
+      margin: 5%;
+  }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+  @media all and (min-width: 768px) {
+    
+    .item.prev {
+        z-index: 2;
+        opacity: 0.25;
+        transform: translate(-125%, -50%);
+      }
+      
+      .item.next {
+        z-index: 2;
+        opacity: 0.25;
+        transform: translate(25%, -50%);
+      }
+
+
+/* About sushi */
+
+.about-sushi {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5%;
+    }
+
+    .sushi-about {
+        margin-top: -10rem;
+      }
+  }

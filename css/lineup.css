@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(240, 244, 231, 0.639);
+  margin: 4% 0;
+}
+
+/* Header */
+
+.home-btn {
+    text-decoration: none;
+    border: 1px solid #686767;
+    padding: .5% 1%;
+    border-radius: 6px;
+    margin-left: 80%
+}
+
+/* Playlist */
+
+.playlist-container {
+  border-top-left-radius: 44px;
+  border-bottom-left-radius: 44px;
+  background: #f4d6a3;
+  width: 100%;
+  padding: 6% 3%;
+  margin-top: 20px;
+}
+
+.playlist-title-container,
+.carousel-cell-text,
+.home-btn {
+  font-family: "Poppins", sans-serif;
+}
+
+.playlist-title-container {
+    padding: 2%;
+}
+
+.musicPlaylist-header {
+  font-size: 1.2rem;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+}
+
+.musipPlaylist-text {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.63;
+  padding-top: 20px;
+  max-width: 80%;
+}
+
+.play-div-container {
+  display: flex;
+  width: 95%;
+  flex-flow: column wrap;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.carousel-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.8rem;
+}
+
+.carousel-cell a {
+  text-decoration: none;
+  padding-bottom: 0.5px;
+}
+
+.carousel-cell-image {
+  padding: 15px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fffaf4;
+}
+
+.carousel-cell-name {
+  padding: 13px 10px 0 0;
+  margin-bottom: 24px;
+}
+
+h5 {
+  font-size: 0.8rem;
+  line-height: 1.23;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  margin: 0;
+}
+
+.carousel-cell a,
+.carousel-cell-text,
+.home-btn {
+  color: #686767;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+@media all and (min-width: 768px) {
+
+  body {
+    margin: 2.5% 0;
+  }
+
+    .home-btn {
+        margin-left:90%;
+    }
+
+  .playlist-container {
+    padding: 50px 20px;
+  }
+
+  .play-div-container {
+    width: 100%;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    padding: .5rem 0;
+  }
+
+  .carousel-cell {
+    padding: 2%;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .carousel-cell-image {
+    padding: 25px;
+    width:100%;
+    margin: auto;
+  }
+
+  .carousel-cell-text {
+    font-size: .8rem;
+    text-align: justify;
+  }
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+@media all and (min-width: 1200px) {
+
+  body {
+    margin: 1.6% 0;
+  }
+
+    .home-btn {
+        margin-left: 93%;
+    }
+
+    .playlist-container {
+        padding: 50px 20px;
+      }
+    
+      .play-div-container {
+        width: 100%;
+        flex-flow: row nowrap;
+        padding: .5rem 0;
+      }
+    
+      .carousel-cell {
+        padding: 2%;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      .carousel-cell-image {
+        padding: 25px;
+        width:100%;
+        margin: auto;
+      }
+    
+      .carousel-cell-text {
+        font-size: .8rem;
+        text-align: justify;
+      }
+}

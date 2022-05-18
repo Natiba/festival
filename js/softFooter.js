@@ -1,6 +1,6 @@
 // Soft Footer Insert
 
-let softFooter = document.getElementById('soft-footer').innerHTML = `
+let softFooter = (document.getElementById("soft-footer").innerHTML = `
 <div class="footer-logo">
       <a href="/index.html"> <img class="footer-logo-collection" src="https://media-prd.coachella.com/templates/template10/svgs/coachella-logo.svg" alt="logo"></a>
       <p>&copy 2022 Sound&Music</p>
@@ -49,4 +49,4 @@ let softFooter = document.getElementById('soft-footer').innerHTML = `
       </ul>
     </article>
   </div>
-`
+`);

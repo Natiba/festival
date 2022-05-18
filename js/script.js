@@ -95,7 +95,6 @@ document.getElementById("navigation-wrapper").innerHTML = `
 
 /* xxxxxxxxxxxxxxxxxxxxxxxx */
 
-
 /* xxxxxxxxxxxxxxxxxxxxxxxx */
 
 function hamFunction(x) {
@@ -135,5 +134,3 @@ const goToTop = () => {
 // Make scrolling smoother - Is working?
 
 /* xxxxxxxxxxxxxxxxxxxxxxxx */
-
-

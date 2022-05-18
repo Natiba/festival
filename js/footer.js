@@ -56,4 +56,4 @@ document.getElementById("footer-plain").innerHTML = `
   </ul>
 </article>
 </div>
-`
+`;
